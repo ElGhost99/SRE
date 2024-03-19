@@ -32,3 +32,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+        -name: Lint
+        run: npm run lint
+        -name: Build
+        run: npm run build
